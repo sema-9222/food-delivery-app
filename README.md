@@ -7,6 +7,10 @@
 # <p align="center"> https://sema-9222.github.io/food-delivery-app </p>
 
 
+<p align="center">
+  <img src="Animation-min.gif" />
+</p>
+
 
 ## Technologies 
 
