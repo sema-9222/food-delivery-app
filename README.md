@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="Animation-min.gif" />
+  <img src="Animation-min (3).gif" />
 </p>
 
 
