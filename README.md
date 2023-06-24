@@ -7,6 +7,7 @@
 # <p align="center"> https://sema-9222.github.io/food-delivery-app </p>
 
 
+
 ## Technologies 
 
 You can see the Technologies used to build this Project:
