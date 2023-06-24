@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.menu-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-items {
+  background-color: white;
+  width: 50%;
+  height: 100vh;
+  color: #000000;
+}
+
+.menu-item-img {
+  width: 95%;
+}
+
+.menu-items-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 1.3vw;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.menu-images {
+  width: 160%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.order {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-evenly;
+  width: 120%;
+}
+
+.btn-order {
+  height: 5vh;
+  background-color: #ff7b00ad;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 20%;
+  width: 52%;
+}
+
+.menu-item-head {
+  font-family: "Quicksand", sans-serif;
+
+  margin-bottom: 5%;
+}
+
+.money {
+  font-family: "Quicksand", sans-serif;
+  font-size: medium;
+}
+
+.btn-order:hover {
+  cursor: pointer;
+}
+
+.menu-item-img:hover {
+  cursor: pointer;
+}
+
+.amount {
+  height: 50%;
+  background-color: #ff7b00ad;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 40%;
+  width: 30%;
+}
+
+.btn-remove {
+  border: none;
+  border-radius: 20px;
+  background-color: #ff7b00ad;
+  color: white;
+  width: 40px;
+  cursor: pointer;
+}
+
+.btn-add {
+  border: none;
+  border-radius: 20px;
+  background-color: #ff7b00ad;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-contt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.smth {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0%;
+}
+
+.menu-menu {
+  background: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 30px rgba(149, 92, 92, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid #eae7e42c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.menu-items-list {
+  margin: 10% 0%;
+  /* margin-top: 10%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.item-info {
+  color: black;
+  padding: 0% 5%;
+  text-align: start;
+}
+
+.world-cuisine {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .world-cuisine {
+    width: 170%;
+    border-radius: 0px 0px 60% 60%;
+  }
+}

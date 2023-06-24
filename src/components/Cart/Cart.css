@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow-y: scroll;
+  color: black;
+}
+
+.detail {
+  margin: 2% 0% 5% 0%;
+  width: 60%;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+}
+
+.cartinfo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+  border-top: 1px solid rgba(0, 0, 0, 0.23);
+  font-size: medium;
+}
+
+.details-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20vh;
+  justify-content: flex-start;
+  margin-top: 3%;
+}
+
+.cart-item-img {
+  width: 55%;
+}
+
+.cart-item-detail {
+  width: 50%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.img-info {
+  display: flex;
+  width: 50%;
+}
+
+.price-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total-cost {
+  height: 65vh;
+  width: 25%;
+  background-color: #e5e6e7;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-sum-head {
+  font-size: medium;
+  width: 75%;
+  height: 8%;
+  padding: 1% 1% 5% 1%;
+  font-family: "Quicksand", sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+  margin: 5% 10%;
+  font-weight: 700;
+}
+
+.promo {
+  font-size: 80%;
+  width: 100%;
+  height: 8%;
+  padding: 1% 0%;
+  font-family: "Quicksand", sans-serif;
+
+  font-weight: 700;
+}
+
+.order-input {
+  height: 5vh;
+
+  border: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+.btn-submit {
+  background-color: black;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  width: 22%;
+  height: 5vh;
+  border: none;
+}
+
+.costs {
+  padding: 1% 1%;
+  font-family: "Quicksand", sans-serif;
+  margin: 18% 10% 0% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 90%;
+  text-align: start;
+}
+
+.costs-total {
+  padding: 1% 1%;
+  font-family: "Quicksand", sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: large;
+}
+.btn-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.costs-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btncheckout {
+  width: 70%;
+  height: 70%;
+  border: none;
+  background-color: #ff7b00b0;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: medium;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 10%;
+  margin-bottom: 5%;
+}
+
+.total-cost {
+  margin: 7% 0%;
+}
+
+.quantity {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  align-items: last baseline;
+}
+
+.remove {
+  border: none;
+  border-radius: 20px;
+  background-color: #ff7b00ad;
+  color: white;
+  cursor: pointer;
+  min-width: 20%;
+}
+.add {
+  min-width: 20%;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff7b00ad;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail {
+    margin: 2% 10% 5% 10%;
+    width: 80%;
+  }
+
+  .total-cost {
+    margin: 7% 10%;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .order-sum-head {
+    font-size: medium;
+
+    padding: 1% 1% 1% 1%;
+    font-family: "Quicksand", sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+    margin: 3% 10%;
+    font-weight: 700;
+  }
+
+  .promo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+  }
+
+  .order-input {
+    width: 100%;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .order-sum-promo {
+    margin-right: 5%;
+  }
+
+  .btn-submit {
+    width: 30%;
+  }
+
+  .costs {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 76%;
+  }
+
+  .costs-details {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .check {
+    width: 30%;
+  }
+
+  .btncheckout {
+    width: 100%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    height: max(201px, 44vw);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10% 0%;
+    border-bottom-style: ridge;
+  }
+  .img-info {
+    width: 100%;
+    align-items: center;
+  }
+  .cart-item-img {
+    width: 40vw;
+    height: 25vw;
+  }
+  .cart-item-detail {
+    width: 100%;
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .money {
+    display: none;
+  }
+
+  .money-total {
+    display: block;
+    margin-left: 10%;
+  }
+
+  .price-info {
+    width: 100%;
+    display: flex;
+
+    justify-content: flex-end;
+  }
+
+  .promo {
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .costs {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vw;
+  }
+
+  .costs-details {
+    width: 70%;
+  }
+  .check {
+    width: 70%;
+  }
+  .total-cost {
+    height: 103vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .btncheckout {
+    height: 10vw;
+  }
+  .order-input {
+    width: 50vw;
+  }
+
+  .order-sum-promo {
+    width: 64vw;
+  }
+
+  .details-info {
+    display: none;
+  }
+}

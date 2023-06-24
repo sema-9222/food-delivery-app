@@ -1,0 +1,53 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  height: 38vh;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.links {
+  width: 15%;
+  font-size: 1.5vw;
+}
+
+.qr {
+  width: 12%;
+  margin-top: 2%;
+}
+
+.app {
+  width: 80%;
+}
+
+.googleb {
+  width: 92%;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    font-size: medium;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-items: center;
+  }
+  .footer {
+    display: none;
+  }
+  .qr {
+    width: 20vw;
+    margin-top: 13%;
+  }
+
+  .app {
+    width: 88%;
+  }
+  .googleb {
+    width: 100%;
+  }
+}

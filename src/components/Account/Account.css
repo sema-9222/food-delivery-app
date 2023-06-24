@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomolhari&family=Jura:wght@600&family=Kaisei+HarunoUmi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jomolhari&family=Josefin+Sans:wght@400&family=Jura:wght@300&family=Kaisei+HarunoUmi&display=swap");
+.account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(pizzaaa.jpg);
+  background-size: cover;
+}
+
+.accountset {
+  width: 100%;
+  top: 0%;
+  font-size: x-large;
+  color: #16191f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  align-items: center;
+  height: 100vh;
+}
+
+.info-account {
+  display: flex;
+  flex-direction: column;
+}
+
+.titles {
+  font-family: "Jomolhari", serif;
+  width: 100%;
+  text-align: start;
+  margin-bottom: 2%;
+}
+
+.buttons1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jura", sans-serif;
+  font-weight: 400px;
+  font-size: small;
+}
+
+.login {
+  color: white;
+  background-color: #ff7b00ad;
+  border: 2px solid #ff7b0039;
+  font-size: small;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 100px;
+  margin-bottom: 1%;
+  width: 55%;
+  min-width: 250px;
+}
+
+.sign {
+  color: #ff7b00ad;
+  background-color: white;
+  border: 2px solid #ff7b00ad;
+  margin-top: 4%;
+}
+
+.webcont {
+  border-radius: 100px;
+  width: fit-content;
+  font-family: "Quicksand", sans-serif;
+}
+
+.facebookimg {
+  width: 30px;
+  margin-right: 4%;
+}
+
+.googleimg {
+  width: 40px;
+  margin-right: 6%;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+  background-color: #3a559f;
+  border: 2px solid #3a559f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 55%;
+  min-width: 250px;
+}
+
+.google {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 2px solid #3a559f;
+  width: 55%;
+  margin: 0% 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3a559f;
+  margin-top: 4%;
+  min-width: 250px;
+}
+.signorlog {
+  font-size: large;
+  font-family: "Jura", sans-serif;
+  font-weight: 600;
+}
+
+.or {
+  font-size: large;
+  font-family: "Jura", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .buttons1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+
+  .info-account {
+    display: flex;
+    flex-direction: column;
+  }
+  .acc-nav {
+    display: none;
+  }
+
+  .account {
+    height: 100vh;
+    background-image: url(pizza.png);
+    background-size: cover;
+  }
+}
