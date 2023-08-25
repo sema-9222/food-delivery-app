@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/food-delivery-app/static/css/main.95f973b7.css",
-    "main.js": "/food-delivery-app/static/js/main.c740b4ad.js",
+    "main.css": "/food-delivery-app/static/css/main.2be930e7.css",
+    "main.js": "/food-delivery-app/static/js/main.c74b3c9f.js",
     "static/js/787.94c44e5c.chunk.js": "/food-delivery-app/static/js/787.94c44e5c.chunk.js",
+    "static/media/frame.png": "/food-delivery-app/static/media/frame.38f1adf95c21cf9733fe.png",
+    "static/media/design.png": "/food-delivery-app/static/media/design.8d2a3471b340d47a465f.png",
     "static/media/pizza.png": "/food-delivery-app/static/media/pizza.ddbb5079bda14d7b8d39.png",
     "static/media/people.jpg": "/food-delivery-app/static/media/people.002b61b9f2854b1e6f4e.jpg",
     "static/media/asian.png": "/food-delivery-app/static/media/asian.c0c723e7d5b40a92ea60.png",
@@ -41,12 +43,12 @@
     "static/media/facebook.png": "/food-delivery-app/static/media/facebook.3e4825900dfd37587d98.png",
     "static/media/cart.svg": "/food-delivery-app/static/media/cart.b2cde60bfde0e3e695587c5a1669ef8a.svg",
     "index.html": "/food-delivery-app/index.html",
-    "main.95f973b7.css.map": "/food-delivery-app/static/css/main.95f973b7.css.map",
-    "main.c740b4ad.js.map": "/food-delivery-app/static/js/main.c740b4ad.js.map",
+    "main.2be930e7.css.map": "/food-delivery-app/static/css/main.2be930e7.css.map",
+    "main.c74b3c9f.js.map": "/food-delivery-app/static/js/main.c74b3c9f.js.map",
     "787.94c44e5c.chunk.js.map": "/food-delivery-app/static/js/787.94c44e5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95f973b7.css",
-    "static/js/main.c740b4ad.js"
+    "static/css/main.2be930e7.css",
+    "static/js/main.c74b3c9f.js"
   ]
 }
